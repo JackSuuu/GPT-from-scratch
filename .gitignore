@@ -1,0 +1,5 @@
+# Ignore virtual environments and site-packages
+.venv/
+venv/
+cuda/lib/python3.12/site-packages/
+.venv/lib/python3.11/site-packages/torch/lib/libtorch_cpu.dylib
