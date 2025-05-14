@@ -8,3 +8,5 @@ cuda/lib/python3.12/site-packages/
 openwebtext/
 .training_set/
 training_set/
+checkpoints/
+model-01.pth
