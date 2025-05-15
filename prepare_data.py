@@ -12,7 +12,7 @@ from pathlib import Path
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Prepare text data for GPT training')
-    parser.add_argument('--input', type=str, default='training_set/textbook.txt',
+    parser.add_argument('--input', type=str, default='training_set/llm.txt',
                         help='Path to the input text file')
     parser.add_argument('--val-ratio', type=float, default=0.1,
                         help='Ratio of validation data (between 0 and 1)')

@@ -32,7 +32,7 @@ n_layer = 8   # More transformer layers
 dropout = 0.1  # Reduced dropout for better convergence
 
 # Vocabulary setup
-with open('training_set/textbook.txt', 'r', encoding='utf-8') as f:
+with open('training_set/llm.txt', 'r', encoding='utf-8') as f:
     text = f.read()
     chars = sorted(list(set(text)))
 vocab_size = len(chars)
